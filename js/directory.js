@@ -10,4 +10,4 @@ for (let i = 0; i < pets.length; i++) {
   `;
 }
 
-document.querySelector('main').innerHTML = html;
+document.querySelector('main').insertAdjacentHTML('beforeend', html);
